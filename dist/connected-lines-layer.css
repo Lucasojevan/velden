@@ -1,0 +1,2 @@
+/* As linhas passam pela página, enquanto o conteúdo fica sempre legível e clicável. */
+body{position:relative}.header{position:absolute;z-index:10}main,footer{position:relative;z-index:auto}main>section,footer{position:relative;z-index:5}main>section>:not(.hero-lights),footer>*{position:relative;z-index:1}.hero .hero-lights{z-index:-2!important}.hero .hero-copy,.hero .scroll,.hero .hero-index{z-index:1!important}

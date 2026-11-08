@@ -1,0 +1,1 @@
+:root{--font:"Manrope",Inter,Arial,sans-serif}body,button,input,textarea,select{font-family:var(--font)}h1,h2,h3,.brand{font-family:var(--font);font-weight:800;letter-spacing:-.055em}.lead,.project-card p,.about p,.newsletter p{font-weight:500}

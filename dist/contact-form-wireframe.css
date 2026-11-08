@@ -1,0 +1,12 @@
+/* Wireframe contact form: one compact vertical column. */
+.contact-form{width:min(100%,430px);justify-self:end;padding:16px;margin-top:-142px}
+.contact-form__grid{display:flex;flex-direction:column;gap:10px}
+.contact-form label{position:relative;gap:6px;font-size:12px}
+.contact-form input,.contact-form textarea,.contact-form__select{min-height:40px;box-sizing:border-box;padding:10px 12px;border-radius:7px}
+.contact-form textarea{min-height:90px}
+.contact-form .full,.contact-form__submit,.contact-form__status{grid-column:auto}
+.contact-form__status{min-height:0}
+.contact-page__footer{margin-top:20px}
+.contact-form__submit{min-height:42px;margin-top:2px}
+.contact-form__options{top:calc(100% + 4px)}
+@media(max-width:800px){.contact-form{width:100%;justify-self:stretch;margin-top:0}}
