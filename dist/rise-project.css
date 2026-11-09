@@ -1,0 +1,22 @@
+.rise-detail-art{display:grid;place-content:center;justify-items:center;background:radial-gradient(circle at 50% 42%,#ff8e3326 0,#ff4d1020 18%,transparent 48%),linear-gradient(140deg,#160f26,#27152e 45%,#080a1a)}
+.rise-detail-art:before{content:"";left:13%;top:16%;width:74%;height:68%;transform:rotate(-8deg);border:1px solid #ff9f4d66;background:linear-gradient(145deg,#f2672e22,#28122d 65%);box-shadow:0 20px 40px #0b0612}
+.rise-detail-art:after{display:none}
+.rise-detail-art__label,.rise-detail-art strong,.rise-detail-art small{position:relative;z-index:1}
+.rise-detail-art__label{color:#ff9b58;font-size:11px;letter-spacing:.24em}
+.rise-detail-art strong{margin:8px 0;color:#fff2e8;font-size:clamp(44px,8vw,84px);letter-spacing:-.09em}
+.rise-detail-art small{color:#ffd8bb;font-size:12px}
+.rise-gallery .gallery-card{background:linear-gradient(145deg,#2d1730,#110a1b)}
+.rise-gallery .gallery-card:before{background:repeating-linear-gradient(0deg,#d9573e 0 2px,transparent 2px 13px),linear-gradient(90deg,#24132c 0 35%,#ec7040 35% 38%,transparent 38%)}
+.rise-gallery .gallery-card:after{border-color:#ff9c59}
+.rise-gallery .gallery-card span{position:absolute;left:14px;bottom:10px;z-index:1;color:#fff2e8;font-size:11px;font-weight:700}
+.rise-gallery .gallery-card{background-size:cover;background-position:center;background-repeat:no-repeat;overflow:hidden}
+.rise-gallery .gallery-card:nth-child(1){background-image:linear-gradient(180deg,#12071b12,#12071ba8),url('rise-gallery-1.png')}
+.rise-gallery .gallery-card:nth-child(2){background-image:linear-gradient(180deg,#12071b12,#12071ba8),url('rise-gallery-2.png')}
+.rise-gallery .gallery-card:nth-child(3){background-image:linear-gradient(180deg,#12071b12,#12071ba8),url('rise-gallery-3.png')}
+.rise-gallery .gallery-card:nth-child(4){background-image:linear-gradient(180deg,#12071b12,#12071ba8),url('rise-gallery-4.png')}
+.rise-gallery .gallery-card:before,.rise-gallery .gallery-card:after{display:none}
+.rise-gallery .gallery-card span{padding:6px 9px;border:1px solid #ffb37d66;border-radius:999px;background:#170b1dcc;box-shadow:0 8px 20px #08030c80;text-shadow:0 1px 2px #000}
+.rise-tile-art{background-image:linear-gradient(180deg,#170b1833,#080611b8),url('rise-card.png')!important;background-size:cover;background-position:center;background-repeat:no-repeat}
+.rise-tile-art .rise-wordmark{position:absolute;inset:0;display:grid;place-items:center;color:#fff0e7;font-size:44px;font-weight:800;letter-spacing:-.1em}
+.rise-tile-art>span{position:relative;z-index:1;color:#ffd4bc!important}
+.project-detail__crumb a{color:#9cc4ff}
